@@ -3,24 +3,24 @@ from typing import List, Tuple, Dict, Any
 from app.plugins import _PluginBase
 
 
-class AutoLitterSister(_PluginBase):
+class MyRss(_PluginBase):
     plugin_name = "小姐姐自己动"
     # 插件描述
     plugin_desc = ""
     # 插件图标
     plugin_icon = "Melody_A.png"
     # 插件版本
-    plugin_version = "0.0.3"
+    plugin_version = "0.0.1"
     # 插件作者
-    plugin_author = "envyafish"
+    plugin_author = "CHOSEN1P"
     # 作者主页
-    author_url = "https://github.com/envyafish"
+    author_url = "https://github.com/CHOSEN1P"
     # 插件配置项ID前缀
-    plugin_config_prefix = "autolittersister_"
+    plugin_config_prefix = "myrss_"
     # 加载顺序
     plugin_order = 0
     # 可使用的用户级别
-    auth_level = 3
+    auth_level = 1
 
     def init_plugin(self, config: dict = None):
         pass
